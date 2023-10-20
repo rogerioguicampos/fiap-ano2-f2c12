@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# fiap-ano2-f2c12
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Escopo do Projeto
 
-## Available Scripts
+A ideia geral do projeto será criar uma plataforma voltada para colaboradores, com o propósito de promover práticas sustentáveis e responsabilidade social em uma empresa, A ideia é estimular colaboradores a terem hábitos mais saudáveis e sustentáveis dentro e fora do ambiente de trabalho.
 
-In the project directory, you can run:
+Inicialmente, focado em atividades individuais dos colaboradores.
 
-### `npm start`
+A plataforma contará com:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Resgate:** ao fim de um ciclo, que deve ser determinado pelo administrador da empresa, o colaborador mais bem ranqueado, pode resgatar bonificações. Essas bonificações podem ser oferecidas por parceiros da plataforma, como o resgate de milhas ou pontos de cartões de crédito, ou até mesmo uma bonificação financeira.
+- **Gamificação:** estimula uma competição saudável entre os colaboradores.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Usuários
 
-### `npm test`
+Teremos, obrigatoriamente, dois tipos de usuários:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Administradores de uma empresa** – que podem cadastrar a empresa, a duração do ciclo dos *inputs* dos colaboradores e quais serão os brindes possíveis de resgate.
+- **Colaboradores** – devem, obrigatoriamente, ser vinculados a uma empresa cadastrada.
 
-### `npm run build`
+### Funcionamento
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Os **colaboradores** criam seu perfil com um personagem heroico, e sobem de nível (EXP) a cada missão aceita e concluída (desafios).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No final de um número determinado de EXP, os heróis (colaboradores) podem trocar EXP por produtos/brindes fornecidos pela **empresa**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Desafios (exemplos)
 
-### `npm run eject`
+- Separação de lixo para reciclagem - desafios de streak de dias para separação do lixo;
+- Prática de atividades físicas - desafios de 3x, 5x e 7x por semana;
+- Hábitos alimentares saudáveis - desafios de streak de dias para consumo de frutas, verduras e legumes;
+- Participação em projetos de voluntariado - participar de um projeto dentro de um número determinado de dias (30 dias);
+- Cultivo de horta doméstica - cultivar e utilizar plantas de próprio cultivo;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Recursos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Registro das ações relacionadas aos desafios** - registro de câmera/foto do desafio/dia concluído;
+- Informações e dicas sobre práticas ESG.
